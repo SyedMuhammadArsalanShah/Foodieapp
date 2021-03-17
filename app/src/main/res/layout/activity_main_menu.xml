@@ -26,7 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.82079345" />
+        app:layout_constraintGuide_percent="0.83915025" />
 
 
     <androidx.constraintlayout.widget.Guideline
@@ -41,7 +41,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.35" />
+        app:layout_constraintGuide_percent="0.32" />
 
     <View
         android:id="@+id/view"
@@ -65,6 +65,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/pic1" />
+
     <LinearLayout
         android:id="@+id/linearlayout"
         android:layout_width="300dp"
@@ -77,7 +78,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline8"
-        app:layout_constraintVertical_bias="0.5">
+        app:layout_constraintVertical_bias="0.0">
 
 
         <TextView
@@ -86,29 +87,26 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:fontFamily="cursive"
-            android:padding="20dp"
+            android:padding="10dp"
             android:text="Eat Homemade Anywhere !"
             android:textAlignment="center"
             android:textColor="#580201"
             android:textSize="18sp" />
-
 
         <Button
             android:id="@+id/SignwithEmail"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_margin="10dp"
             android:background="@drawable/button"
             android:drawableLeft="@drawable/ic_email_black_24dp"
             android:drawableTint="#580201"
             android:paddingLeft="10dp"
-            android:layout_margin="10dp"
 
             android:text="SigIn with Email"
             android:textColor="#580201" />
 
-
-        />
         <Button
             android:id="@+id/SignwithPhone"
             android:layout_width="200dp"
@@ -177,7 +175,6 @@
         app:layout_constraintBottom_toTopOf="@+id/guideline4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHeight_percent="0.5"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline4"
         app:layout_constraintVertical_bias="0.5"

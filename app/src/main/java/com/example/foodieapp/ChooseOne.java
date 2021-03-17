@@ -25,18 +25,18 @@ public class ChooseOne extends AppCompatActivity {
         DeliveryPerson = (Button) findViewById(R.id.delivery);
         Customer = (Button) findViewById(R.id.customer);
         AnimationDrawable animationDrawable = new AnimationDrawable();
-        animationDrawable.addFrame(getResources().getDrawable(R.drawable.bghome2), 3000);
-        animationDrawable.addFrame(getResources().getDrawable(R.drawable.pic2), 3000);
-        animationDrawable.addFrame(getResources().getDrawable(R.drawable.pic3), 3000);
-        animationDrawable.addFrame(getResources().getDrawable(R.drawable.pic5), 3000);
-        animationDrawable.addFrame(getResources().getDrawable(R.drawable.pic6), 3000);
-        animationDrawable.addFrame(getResources().getDrawable(R.drawable.bggg), 3000);
-        animationDrawable.addFrame(getResources().getDrawable(R.drawable.pic9), 3000);
-        animationDrawable.addFrame(getResources().getDrawable(R.drawable.pic10), 3000);
-        animationDrawable.addFrame(getResources().getDrawable(R.drawable.pic11), 3000);
-        animationDrawable.addFrame(getResources().getDrawable(R.drawable.pic12), 3000);
-        animationDrawable.addFrame(getResources().getDrawable(R.drawable.pic13), 3000);
-        animationDrawable.addFrame(getResources().getDrawable(R.drawable.pic14), 3000);
+        animationDrawable.addFrame(getResources().getDrawable(R.drawable.pic1), 2000);
+        animationDrawable.addFrame(getResources().getDrawable(R.drawable.pic2), 2000);
+        animationDrawable.addFrame(getResources().getDrawable(R.drawable.pic3), 2000);
+        animationDrawable.addFrame(getResources().getDrawable(R.drawable.pic5), 2000);
+        animationDrawable.addFrame(getResources().getDrawable(R.drawable.pic6), 2000);
+        animationDrawable.addFrame(getResources().getDrawable(R.drawable.bggg), 2000);
+        animationDrawable.addFrame(getResources().getDrawable(R.drawable.pic9), 2000);
+        animationDrawable.addFrame(getResources().getDrawable(R.drawable.pic10), 2000);
+        animationDrawable.addFrame(getResources().getDrawable(R.drawable.pic11), 2000);
+        animationDrawable.addFrame(getResources().getDrawable(R.drawable.pic12), 2000);
+        animationDrawable.addFrame(getResources().getDrawable(R.drawable.pic13), 2000);
+        animationDrawable.addFrame(getResources().getDrawable(R.drawable.pic14), 2000);
 
 
 

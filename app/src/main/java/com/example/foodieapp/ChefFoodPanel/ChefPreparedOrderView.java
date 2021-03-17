@@ -131,7 +131,7 @@ public class ChefPreparedOrderView extends AppCompatActivity {
                                                 hashMap.put("RandomUID", RandomUID);
                                                 hashMap.put("TotalPrice", chefFinalOrders.getTotalPrice());
                                                 hashMap.put("UserId", chefFinalOrders.getUserId());
-                                                FirebaseDatabase.getInstance().getReference("DeliveryShipOrders").child(deliveryId).child(RandomUID).child("Dishes").child(dishid).setValue(hashMap);
+                                                FirebaseDatabase.getInstance().getReference("DeliveryShipOrders").child(deliveryId).child(RandomUID).child("Dishes").child(dishid).setValue(hashMap);//.child(FirebaseAuth.getInstance().getCurrentUser().getUid());
                                             }
                                             DatabaseReference data = FirebaseDatabase.getInstance().getReference("ChefFinalOrders").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child(RandomUID).child("OtherInformation");
                                             data.addListenerForSingleValueEvent(new ValueEventListener() {

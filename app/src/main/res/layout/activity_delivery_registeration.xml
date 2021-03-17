@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/loginbackground"
-    tools:context="my.food_on.app.Delivery_registeration">
+    tools:context=".Delivery_registeration">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -38,11 +38,15 @@
                 android:id="@+id/fname"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="15dp">
+                android:layout_marginTop="15dp"
+                android:textColorHint="@color/colorPrimaryDark">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_person_black_24dp"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="@color/colorPrimaryDark"
                     android:hint="FirstName"
                     android:inputType="text" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -51,12 +55,17 @@
                 android:id="@+id/lname"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="12dp">
+                android:layout_marginTop="12dp"
+                android:textColorHint="@color/colorPrimaryDark">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_person_black_24dp"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="@color/colorPrimaryDark"
                     android:hint="LastName"
+
                     android:inputType="text" />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -64,13 +73,15 @@
                 android:id="@+id/Emailid"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="12dp">
+                android:layout_marginTop="12dp"
+                android:textColorHint="@color/colorPrimaryDark">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:drawableLeft="@drawable/ic_email_black_24dp"
                     android:drawablePadding="10dp"
+                    android:drawableTint="@color/colorPrimaryDark"
                     android:hint="Email id"
                     android:inputType="textEmailAddress" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -81,6 +92,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
+                android:textColorHint="@color/colorPrimaryDark"
                 app:passwordToggleEnabled="true">
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -95,6 +107,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="12dp"
+                android:textColorHint="@color/colorPrimaryDark"
                 app:passwordToggleEnabled="true">
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -118,12 +131,16 @@
                 <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/mobileno"
                     android:layout_width="130dp"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/colorPrimaryDark">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="Mobile number"
+                        android:drawableLeft="@drawable/ic_local_phone_black_24dp"
+                        android:drawablePadding="10dp"
+                        android:drawableTint="@color/colorPrimaryDark"
                         android:inputType="number" />
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -133,12 +150,15 @@
                 android:id="@+id/Houseno"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="12dp">
+                android:layout_marginTop="12dp"
+                android:textColorHint="@color/colorPrimaryDark">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="House/Street no"
+                    android:hint="House/Street no"          android:drawableLeft="@drawable/ic_location_on_black_24dp"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="@color/colorPrimaryDark"
                     android:inputType="text" />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -147,12 +167,15 @@
                 android:id="@+id/Areaa"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="12dp">
+                android:layout_marginTop="12dp"
+                android:textColorHint="@color/colorPrimaryDark">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Area"
+                    android:hint="Area"          android:drawableLeft="@drawable/ic_location_on_black_24dp"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="@color/colorPrimaryDark"
                     android:inputType="textMultiLine" />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -160,12 +183,15 @@
                 android:id="@+id/Postcodee"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="12dp">
+                android:layout_marginTop="12dp"
+                android:textColorHint="@color/colorPrimaryDark">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Post Code"
+                    android:hint="Post Code"          android:drawableLeft="@drawable/ic_local_shipping_black_24dp"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="@color/colorPrimaryDark"
                     android:inputType="number" />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -176,6 +202,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
                 android:text="State"
+                android:textColor="@color/colorPrimaryDark"
                 android:textSize="15dp" />
 
             <Spinner
@@ -191,6 +218,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
                 android:text="City"
+                android:textColor="@color/colorPrimaryDark"
                 android:textSize="15dp" />
 
             <Spinner
@@ -205,6 +233,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
                 android:text="Suburban"
+                android:textColor="@color/colorPrimaryDark"
                 android:textSize="15dp" />
 
             <Spinner
@@ -220,9 +249,9 @@
                 android:layout_height="40dp"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/button_shape"
-                android:textColor="@color/white"
-                android:textAllCaps="true"
                 android:text="Register"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
                 android:textSize="15dp" />
 
             <LinearLayout
@@ -237,7 +266,7 @@
                     android:layout_width="105dp"
                     android:layout_height="1dp"
                     android:layout_marginTop="20dp"
-                    android:background="#878787" />
+                    android:background="@color/colorPrimaryDark" />
 
                 <TextView
                     android:id="@+id/OR"
@@ -247,7 +276,7 @@
                     android:layout_marginTop="7dp"
                     android:text="OR"
                     android:textAlignment="center"
-                    android:textColor="@color/Black"
+                    android:textColor="@color/colorPrimaryDark"
                     android:textSize="17dp" />
 
                 <TableRow
@@ -255,7 +284,7 @@
                     android:layout_width="105dp"
                     android:layout_height="1dp"
                     android:layout_marginTop="20dp"
-                    android:background="#878787" />
+                    android:background="@color/colorPrimaryDark" />
 
             </LinearLayout>
 
@@ -266,7 +295,7 @@
                 android:layout_marginTop="15dp"
                 android:text="SignIn with"
                 android:textAlignment="center"
-                android:textColor="#FA3E03"
+                android:textColor="@color/colorPrimaryDark"
                 android:textSize="18dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -304,7 +333,7 @@
                     android:drawablePadding="5dp"
                     android:padding="10dp"
                     android:text="Phone"
-                    android:textColor="@color/white"  />
+                    android:textColor="@color/white" />
 
 
             </LinearLayout>

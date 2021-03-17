@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#AF1803</color>
-    <color name="colorPrimaryDark">#580201</color>
+    <color name="colorPrimary">#580201</color>
+    <color name="colorPrimaryDark">#AF1803</color>
     <color name="colorAccent">#A7330A</color>
     <color name="white">#FFFFFF</color>
-    <color name="green">#5FB709</color>
-    <color name="Red">#EB0D0D</color>
-    <color name="blueish">#17A2C0</color>
+    <color name="green">#004527</color>
+    <color name="Red">#AF1803</color>
+    <color name="blueish">#000A5D</color>
     <color name="Black">#000000</color>
     <color name="Blacklogo">#262626</color>
     <color name="defaultColor">#000000</color>
@@ -15,6 +15,6 @@
     <color name="lightgray">#1D000000</color>
     <color name="darkgreen">#026909</color>
     <color name="OffWhite">#36FFFFFF</color>
-    <color name="DarkBlue">#250285</color>
-    <color name="yourSelectedColor">#ff0000</color>
+    <color name="DarkBlue">#00535F</color>
+    <color name="yourSelectedColor">#A7330A</color>
 </resources>

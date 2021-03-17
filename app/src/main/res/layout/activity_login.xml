@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/pic5"
-    tools:context="my.food_on.app.Login">
+    tools:context=".Login">
 
     <LinearLayout
         android:id="@+id/linearlayout"
@@ -36,6 +36,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:paddingBottom="10dp"
+            android:textColorHint="@color/colorPrimaryDark"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.495"
@@ -48,12 +49,14 @@
                 android:layout_height="wrap_content"
                 android:drawableLeft="@drawable/ic_email_black_24dp"
                 android:drawablePadding="10dp"
+                android:drawableTint="@color/colorPrimaryDark"
                 android:hint="Email id"
                 android:inputType="textEmailAddress" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/Lpassword"
+            android:textColorHint="@color/colorPrimaryDark"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -80,7 +83,7 @@
             android:layout_marginTop="10dp"
             android:gravity="end"
             android:text="Forgot Password?"
-            android:textColor="@color/Black"
+            android:textColor="@color/colorPrimaryDark"
             android:textSize="16dp" />
 
         <Button
@@ -106,7 +109,7 @@
             android:layout_marginTop="10dp"
             android:text="Do not have an account? SignUp"
             android:textAlignment="center"
-            android:textColor="@color/Black"
+            android:textColor="@color/colorPrimaryDark"
             android:textSize="15dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -126,7 +129,7 @@
                 android:layout_width="103dp"
                 android:layout_height="1dp"
                 android:layout_marginTop="20dp"
-                android:background="#878787" />
+                android:background="@color/colorPrimaryDark" />
 
             <TextView
                 android:id="@+id/OR"
@@ -136,7 +139,7 @@
                 android:layout_marginTop="7dp"
                 android:text="OR"
                 android:textAlignment="center"
-                android:textColor="@color/Black"
+                android:textColor="@color/colorPrimaryDark"
                 android:textSize="17dp" />
 
             <TableRow
@@ -144,7 +147,7 @@
                 android:layout_width="103dp"
                 android:layout_height="1dp"
                 android:layout_marginTop="20dp"
-                android:background="#878787" />
+                android:background="@color/colorPrimaryDark" />
 
         </LinearLayout>
 
