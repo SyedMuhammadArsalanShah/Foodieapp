@@ -57,7 +57,7 @@ public class DeliveryShipOrderFragmentAdapter extends RecyclerView.Adapter<Deliv
         final DeliveryShipFinalOrders1 deliveryShipFinalOrders1 = deliveryShipFinalOrders1list.get(position);
         holder.Address.setText(deliveryShipFinalOrders1.getAddress());
         holder.grandtotalprice.setText("Grand Total: Rs " + deliveryShipFinalOrders1.getGrandTotalPrice());
-        holder.mobilenumber.setText("+91" + deliveryShipFinalOrders1.getMobileNumber());
+        holder.mobilenumber.setText("+92" + deliveryShipFinalOrders1.getMobileNumber());
         final String random = deliveryShipFinalOrders1.getRandomUID();
         final String userid = deliveryShipFinalOrders1.getUserId();
         holder.Vieworder.setOnClickListener(new View.OnClickListener() {
@@ -136,7 +136,7 @@ public class DeliveryShipOrderFragmentAdapter extends RecyclerView.Adapter<Deliv
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
-            Address = itemView.findViewById(R.id.ad2);
+            Address = itemView.findViewById(R.id.ad21);
             mobilenumber = itemView.findViewById(R.id.MB2);
             grandtotalprice = itemView.findViewById(R.id.TP2);
             Vieworder = itemView.findViewById(R.id.view2);

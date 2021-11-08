@@ -44,7 +44,7 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-public class ChefPreparedOrderView extends AppCompatActivity {
+public class  ChefPreparedOrderView extends AppCompatActivity {
 
 
     RecyclerView recyclerViewdish;
@@ -52,13 +52,13 @@ public class ChefPreparedOrderView extends AppCompatActivity {
     private ChefPreparedOrderViewAdapter adapter;
     DatabaseReference reference;
     String RandomUID, userid;
-    TextView grandtotal, address, name, number;
+    TextView grandtotal, Address, name, number;
     LinearLayout l1;
     Button Prepared;
     private ProgressDialog progressDialog;
     private APIService apiService;
     Spinner Shipper;
-    String deliveryId = "oCpc4SwLVFbKO0fPdtp4R6bmDmI3";
+    String deliveryId = "KdMd6UxheSc9VgJ4VnBZrQZEHa82";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,7 +66,7 @@ public class ChefPreparedOrderView extends AppCompatActivity {
         setContentView(R.layout.activity_chef_prepared_order_view);
         recyclerViewdish = findViewById(R.id.Recycle_viewOrder);
         grandtotal = findViewById(R.id.Gtotal);
-        address = findViewById(R.id.Cadress);
+        Address = findViewById(R.id.Cadress);
         name = findViewById(R.id.Cname);
         number = findViewById(R.id.Cnumber);
         l1 = findViewById(R.id.linear);
@@ -251,10 +251,10 @@ public class ChefPreparedOrderView extends AppCompatActivity {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 ChefFinalOrders1 chefFinalOrders1 = dataSnapshot.getValue(ChefFinalOrders1.class);
-                grandtotal.setText("₹ " + chefFinalOrders1.getGrandTotalPrice());
-                address.setText(chefFinalOrders1.getAddress());
+                grandtotal.setText("Rs " + chefFinalOrders1.getGrandTotalPrice());
+                Address.setText(chefFinalOrders1.getAddress());
                 name.setText(chefFinalOrders1.getName());
-                number.setText("+91" + chefFinalOrders1.getMobileNumber());
+                number.setText("+92" + chefFinalOrders1.getMobileNumber());
 
             }
 

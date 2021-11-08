@@ -4,6 +4,9 @@ public class DeliveryShipOrders1 {
 
     private String Address, ChefId, ChefName, GrandTotalPrice, MobileNumber, Name, RandomUID, Status, UserId;
 
+    public DeliveryShipOrders1() {
+    }
+
     public DeliveryShipOrders1(String address, String chefId, String chefName, String grandTotalPrice, String mobileNumber, String name, String randomUID, String status, String userId) {
         Address = address;
         ChefId = chefId;
@@ -14,10 +17,6 @@ public class DeliveryShipOrders1 {
         RandomUID = randomUID;
         Status = status;
         UserId = userId;
-    }
-
-    public DeliveryShipOrders1() {
-
     }
 
     public String getAddress() {
